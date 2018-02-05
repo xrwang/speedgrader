@@ -25,6 +25,4 @@ let didNotDoHomeworkFiles = (directory) => {
   return df.filter(file => !studentDidTheirHomework(file));
 }
 
-//studentDidTheirHomework('./xinran_5027059_72468768_Ran Xin-Lab 0.ipynb')
-
 console.log(didNotDoHomeworkFiles('./'))
